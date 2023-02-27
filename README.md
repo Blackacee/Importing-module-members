@@ -1,2 +1,7 @@
 # Importing-module-members
-Importing members from another module
+
+import {doSomething, MyClass, PI} from './test'
+doSomething()
+const mine = new MyClass()
+mine.test()
+console.log(PI)
